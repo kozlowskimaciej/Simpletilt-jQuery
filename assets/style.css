@@ -1,0 +1,37 @@
+body,
+#numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 25px;
+}
+
+strong {
+  font-size: 2rem;
+}
+
+#default,
+#no-hover-return {
+  margin: 6rem 0 6rem 0;
+}
+
+.smtilt {
+  width: 500px;
+  height: 500px;
+}
+
+#tiltimg {
+  width: 100%;
+  height: 100%;
+}
+
+#numbers {
+  z-index: 9999;
+  position: fixed;
+  padding: 1rem;
+  top: 1rem;
+  right: 1rem;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
